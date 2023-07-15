@@ -1796,7 +1796,7 @@ svg,
 @media (max-width: 991px) {
   .services-section__list-card-picture {
     max-width: 120px;
-    margin: 0 0 -12px;
+    margin: 0 0 4px;
     -ms-flex-preferred-size: 120px;
     flex-basis: 120px;
   }
