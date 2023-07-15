@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+html(lang='ru')
+  include includes/head.pug
+
+  body
+
+    #root.site
+      section.intro
+        .container.intro__container
+          header.intro__header
+            .intro__header-brand
+              .intro__header-brand-suptitle Академия
+              h1.intro__header-brand-title Meta Box
+            .box.box--theme-blue-light.intro__header-box
+              .box__inner
+                picture.box__picture
+                  img(src="images/icon/box-icon-1.svg" alt="Базовый практический курс по криптовалюте")
+                .box__text <strong>Базовый практический</strong><br>курс по криптовалюте
+          .intro__middle
+            .intro__middle-title
+              span Крипта
+              span с нуля
+          footer.intro__footer
+            picture.intro__footer-hero
+              img(src="images/intro-hero.png" alt="Академия Meta Box")
+            button(type="button").btn.btn--theme-accent.btn--size-md.intro__footer-btn
+              span.btn__inner
+                span.btn__title Оставить заявку
+            .intro__footer-text
+              <strong>Научись безопасно инвестировать</strong> в&nbsp;криптовалюту и <strong>создай для себя дополнительный источник дохода</strong>
+      section.deadline
+        .container.deadline__container
+          h2.u-suptitle.deadline__title до закрытия продаж осталось :
+          .deadline__countdown
+            .deadline__countdown-item
+              .deadline__countdown-item-count
+              .deadline__countdown-item-title Дней
+            .deadline__countdown-item
+              .deadline__countdown-item-count
+              .deadline__countdown-item-title Часов
+            .deadline__countdown-item
+              .deadline__countdown-item-count
+              .deadline__countdown-item-title Минут
+            .deadline__countdown-item
+              .deadline__countdown-item-count
+              .deadline__countdown-item-title Секунд
+          h2.u-suptitle.deadline__title Крипта с нуля
+          .deadline__info
+            .deadline__info-item
+              .deadline__info-item-suptitle Длительность:
+              .deadline__info-item-title 4 недели
+            .deadline__info-item
+              .deadline__info-item-suptitle Начало:
+              .deadline__info-item-title 1 Августа
+      section.about
+        .container.about__container
+          h2.u-suptitle.about__title Криптовалютная сфера — одна из самых обсуждаемых ниш на сегодня
+          .about__header
+            .about__fact-item.about__fact-item--1
+              .about__fact-item-title Факт 1
+              .box.box--theme-blue-light.about__fact-item-box
+                .box__inner
+                  .box__text <strong>Каждый второй хочет зарабатывать в&nbsp;крипте.</strong>
+            .about__fact-item.about__fact-item--2
+              .about__fact-item-title Факт 2
+              .box.box--theme-blue-light.about__fact-item-box
+                .box__inner
+                  .box__text <strong>Никто не может конкретно ответить в&nbsp;каком именно направлении.</strong>
+          .about__crypto
+            picture.about__crypto-picture.d-lg-none
+              img(src="images/about-iceberg.png" alt="Криптовалютная сфера — одна из самых обсуждаемых ниш на сегодня")
+            picture.about__crypto-picture.d-lg-block
+              img(src="images/about-iceberg-mobile.png" alt="Криптовалютная сфера — одна из самых обсуждаемых ниш на сегодня")
+            .about__crypto-card.about__crypto-card--1
+              .u-suptitle.about__crypto-card-title Крипта по мнению большинства
+              .about__crypto-card-text Многие думают, что крипта —<br><strong>это только трейдинг</strong>
+            .about__crypto-card.about__crypto-card--2
+              .u-suptitle.about__crypto-card-title Крипта на самом деле
+              .about__crypto-card-text <strong>В крипте около 10 направлений, в&nbsp;которых ты можешь зарабатывать от 100$.</strong><br>А в некоторых из них зарабатывать даже без&nbsp;вложений.
+          .about__footer
+            button(type="button").btn.btn--theme-accent.btn--size-md.about__footer-btn
+              span.btn__inner
+                span.btn__title Оставить заявку
+            .about__fact-item.about__fact-item--3
+              .about__fact-item-title Факт 3
+              .box.box--theme-blue-light.about__fact-item-box
+                .box__inner
+                  .box__text <strong>На обучении ты узнаешь о том, что из себя представляет каждое направление и как в нем начать зарабатывать.</strong>
+      section.info-section
+        .container.info-section__container
+          .info-section__inner
+            h2.u-title.info-section__title.info-section__title--1 — Почему сейчас самое время вникать в нишу?
+            h2.u-title.info-section__title.info-section__title--2 — Потому что она находится на&nbsp;стадии становления.
+            .content.info-section__text.info-section__text--1
+              p Сейчас криптой пользуются 4% людей по всему миру.<br><strong>Представители крупных криптовалютных бирж обозначили главный вектор: упростить&nbsp;вход новых пользователей в сферу крипты!</strong>
+            .info-section__box
+              picture.info-section__box-picture
+                img(src="images/icon/rupor.png" alt="Уже более 10 стран создали цифровые валюты")
+              .box.box--theme-blue-light.info-section__box-item
+                .box__inner
+                  .box__text Уже более 10 стран создали цифровые валюты.<br>Все больше секторов начинают внедрять криптовалюту.
+            .content.info-section__text.info-section__text--2
+              p Топы делают сейчас все возможное, чтобы крипта стала ещё более доступной.<br><strong>К концу 2024 года планируется увеличить количество пользователей минимум в 2 раза.</strong>
+            .info-section__list
+              .info-section__list-card
+                h3.u-suptitle.info-section__list-card-title сейчас
+                .info-section__list-card-count 4 <span>%</span>
+                h3.u-suptitle.info-section__list-card-suptitle ≈ 300 000 000<br>человек
+              .info-section__list-card
+                h3.u-suptitle.info-section__list-card-title конец 2024
+                .info-section__list-card-count <span>></span>8<span>%</span>
+                h3.u-suptitle.info-section__list-card-suptitle > 600 000 000<br>человек
+      section.services-section
+        .container.services-section__container
+          h2.u-section-title.services-section__title Как и в каких секторах планируется применять крипту?
+          .services-section__list
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-1.png" alt="Финансовый сектор")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Финансовый сектор
+                .content.services-section__list-card-text
+                  p Быстрые и безопасные платежи без посредников в любое время суток. Банки, инвест фонды, страхование, платежки
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-2.png" alt="Здравоохранение")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Здравоохранение
+                .content.services-section__list-card-text
+                  p Блокчейн может улучшить сферу, обеспечивая безопасное и прозрачное хранение и передачу медицинских данных
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-3.png" alt="Государственный сектор")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Государственный сектор
+                .content.services-section__list-card-text
+                  p Появление цифровых валют национального&nbsp;уровня
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-4.png" alt="Недвижимость")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Недвижимость
+                .content.services-section__list-card-text
+                  p Регистрация собственности и подтверждение прав на основе смарт контрактов
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-5.png" alt="Игровая индустрия")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Игровая индустрия
+                .content.services-section__list-card-text
+                  p Создание цифровых активов внутри игр, обмена и продажи игровых предметов между игроками, обеспечения прозрачности и безопасности виртуальных экономик
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-6.png" alt="Сфера образования")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Сфера образования
+                .content.services-section__list-card-text
+                  p Технология блокчейн может быть применена в сфере образования для подтверждения достижений, поддержки цифровых дипломов и сертификатов
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-7.png" alt="Интеллектуальная собственность")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Интеллектуальная собственность
+                .content.services-section__list-card-text
+                  p Авторские права, патенты и товарные знаки на основе блокчейна
+            article.services-section__list-card
+              picture.services-section__list-card-picture
+                img(src="images/services-card-8.png" alt="Снабжение")
+              .services-section__list-card-content
+                h3.services-section__list-card-title Снабжение
+                .content.services-section__list-card-text
+                  p Обеспечения прозрачности и подтверждения происхождения продуктов питания
+      section.author-section
+        .container.author-section__container
+          .author-section__inner
+            .author-section__benefits
+              .author-section__benefits-case
+                .author-section__benefits-case-title Инвестиционный портфель более
+                .author-section__benefits-case-amount 20 000 000 ₽
+                picture.author-section__benefits-case-picture
+                  img(src="images/intro-hero.png" alt="Инвестиционный портфель более 20 000 000 ₽")
+              .author-section__benefits-consultation
+                .author-section__benefits-consultation-title Моя консультация стоит $6 000
+                p.author-section__benefits-consultation-description но почти на каждой консультации мне приходится говорить одни и те же основы, которые помогают приумножить деньги и не потерять их из-за ошибок
+                .author-section__benefits-consultation-text <strong>Эти основы нужно знать всем, кто собирается инвестировать в&nbsp;криптовалюту.</strong><br>Поэтому я собрала в этот курс всю основную информацию
+            .author-section__content
+              h2.u-section-title.author-section__content-title Меня зовут Виолетта
+              .author-section__content-position Ваш проводник в мир криптовалюты
+              .content.author-section__content-text
+                p За первый год в криптовалюте я несколько раз все теряла из-за банальных ошибок, о&nbsp;которых теперь могу рассказать всем новичкам, чтобы как можно больше людей научились инвестировать и спокойно зарабатывали на этом
+              ul.author-section__content-list
+                li Заработала на DEFI рынке 1.000.000$ и продолжаю зарабатывать
+                li Эксперт хакатонов информационных технологий
+                li Эксперт Российского общества знаний от Синергия
+                li NFT, которые я создала, висят в лучших музеях России
+                li Являюсь создателем нескольких успешных мемкоинов
+              picture.author-section__content-picture
+                img(src="images/author-section-arrow.jpg")
+      section.about-section
+        .container.about-section__container
+          h2.u-section-title.about-section__title Что тебе нужно для выхода на&nbsp;пассивный доход в криптовалюте
+          .about-section__list
+            article.about-section__card
+              picture.about-section__card-picture
+                img(src="images/about-card-1.png" alt="Устройство с интернетом")
+              .about-section__card-content
+                h3.about-section__card-title Устройство с интернетом
+                p.about-section__card-text Такое ведь найдется?<br>Иначе как ты просматриваешь этот сайт?
+            article.about-section__card
+              picture.about-section__card-picture
+                img(src="images/about-card-2.png" alt="10 долларов")
+              .about-section__card-content
+                h3.about-section__card-title 10 долларов
+                p.about-section__card-text Даже 10$ ты сможешь приумножить и понять, как зарабатывать на криптовалюте.
+            article.about-section__card
+              picture.about-section__card-picture
+                img(src="images/about-card-3.png" alt="20-30 минут в день")
+              .about-section__card-content
+                h3.about-section__card-title 20-30 минут в день
+                p.about-section__card-text Можно раз в неделю открывать биржу, чтобы купить новые монеты или вывести средства.
+            article.about-section__card
+              picture.about-section__card-picture
+                img(src="images/about-card-4.png" alt="Технология 1-2-3")
+              .about-section__card-content
+                h3.about-section__card-title Технология 1-2-3
+                p.about-section__card-text С помощью которой ты разберешься в сфере криптовалют и сделаешь из нее инструмент для заработка.
+      section.audience-section
+        .container.audience-section__container
+          h2.u-section-title.audience-section__title Кого мы рассматриваем в качестве студентов академии?
+          .audience-section__list
+            .audience-section__list-col
+              article.audience-card.audience-section__list-card
+                .audience-card__inner
+                  picture.audience-card__picture
+                    img(src="images/audience-card-1.png" alt="Студенты")
+                  .audience-card__content
+                    h3.u-suptitle.audience-card__title Студенты
+                    .content.audience-card__text
+                      p желающие найти свою нишу для заработка
+            .audience-section__list-col
+              article.audience-card.audience-section__list-card
+                .audience-card__inner
+                  picture.audience-card__picture
+                    img(src="images/audience-card-2.png" alt="Фрилансеры")
+                  .audience-card__content
+                    h3.u-suptitle.audience-card__title Фрилансеры
+                    .content.audience-card__text
+                      p ищущие доп. источник дохода и сферы для инвестирования
+            .audience-section__list-col
+              article.audience-card.audience-section__list-card
+                .audience-card__inner
+                  picture.audience-card__picture
+                    img(src="images/audience-card-3.png" alt="Мамочки")
+                  .audience-card__content
+                    h3.u-suptitle.audience-card__title Мамочки
+                    .content.audience-card__text
+                      p мечтающие о красивой жизни для себя и своих детей
+            .audience-section__list-col
+              article.audience-card.audience-section__list-card
+                .audience-card__inner
+                  picture.audience-card__picture
+                    img(src="images/audience-card-4.png" alt="Специалисты")
+                  .audience-card__content
+                    h3.u-suptitle.audience-card__title Специалисты
+                    .content.audience-card__text
+                      p желающие уйти от офисной работы
+            .audience-section__list-col
+              article.audience-card.audience-section__list-card
+                .audience-card__inner
+                  picture.audience-card__picture
+                    img(src="images/audience-card-5.png" alt="Те самые")
+                  .audience-card__content
+                    h3.u-suptitle.audience-card__title Те самые
+                    .content.audience-card__text
+                      p кто хочет войти в элитное окружение
+      section.result-section
+        .container.result-section__container
+          h2.result-section__title Твои результаты
+          ul.result-section__list
+            li Разберешься в рынке криптовалют
+            li Научишься по нашей методике отбирать перспективные проекты для инвестирования
+            li Узнаешь, как бесплатно добывать крипту
+            li Узнаешь, как связать свою профессию с web 3.0 и&nbsp;зарабатывать в 2-3 раза больше
+            li Сформируешь собственный криптовалютный портфель
+            li Узнаешь про 5+ инструментов для заработка при любом бюджете
+      section.program-section
+        .container.program-section__container
+          h2.u-section-title.program-section__title Программа
+          .program-section__description <strong>Научись безопасно инвестировать в</strong>&nbsp;криптовалюту и создай для себя дополнительный источник дохода
+          picture.program-section__picture
+            img(src="images/program-section-img.jpg" alt="Программа курса")
+          .program-section__list
+            .program-section__list-col
+              article.program-card.program-section__list-card
+                .program-card__inner
+                  h3.program-card__title Модуль 1
+                  p.program-card__subtitle Что такое криптовалюта?
+                  ul.program-card__list
+                    li — Технология блокчейн и криптовалюты
+                    li — Глоссарий с крипто терминами
+                    li — Как биткоин создал рынок web 3.0?
+                  .program-card__result
+                    p.program-card__result-title Результат:
+                    p.program-card__result-text Поймете что такое криптовалюта и как она устроена, даже если никогда не вникали в нее
+            .program-section__list-col
+              article.program-card.program-section__list-card
+                .program-card__inner
+                  h3.program-card__title Модуль 2
+                  p.program-card__subtitle Где применяются и как используются?
+                  ul.program-card__list
+                    li — От чего зависит курс крипты?
+                    li — Какие криптовалюты существуют?
+                    li — Зачем нужна крипта и как ей пользоваться?
+                  .program-card__result
+                    p.program-card__result-title Результат:
+                    p.program-card__result-text Поймете, что влияет на изменение курса и как использовать крипту
+            .program-section__list-col
+              article.program-card.program-section__list-card
+                .program-card__inner
+                  h3.program-card__title Модуль 3
+                  p.program-card__subtitle Создание кошельков и&nbsp;регистрация на биржах
+                  ul.program-card__list
+                    li — Создание криптокошельков 
+                    li — Регистрация и верификация на топовых биржах
+                    li — Покупка и продажа крипты
+                  .program-card__result
+                    p.program-card__result-title Результат:
+                    p.program-card__result-text Научитесь самостоятельно создавать кошельки и аккаунты на биржах, а также покупать и продавать крипту
+            .program-section__list-col
+              article.program-card.program-section__list-card
+                .program-card__inner
+                  h3.program-card__title Модуль 4
+                  p.program-card__subtitle Безопасность на рынке и виды мошенничества
+                  ul.program-card__list
+                    li — Топ 10 ошибок новичка
+                    li — Как не попасться на скам проекты?
+                    li — Виды мошенничества на крипто рынке
+                  .program-card__result
+                    p.program-card__result-title Результат:
+                    p.program-card__result-text Поймете, как безопасно хранить средства и не попасться на скам
+            .program-section__list-col
+              article.program-card.program-section__list-card
+                .program-card__inner
+                  h3.program-card__title Модуль 5
+                  p.program-card__subtitle Бесплатная добыча
+                  ul.program-card__list
+                    li — Способы бесплатного заработка крипты
+                    li — Где искать проекты для заработка?
+                    li — Соц сети для криптанов
+                  .program-card__result
+                    p.program-card__result-title Результат:
+                    p.program-card__result-text Узнаешь, как добывать крипту без капитала
+            .program-section__list-col
+              article.program-card.program-section__list-card
+                .program-card__inner
+                  h3.program-card__title Модуль 6
+                  p.program-card__subtitle Инвестиции и формирование портфеля
+                  ul.program-card__list
+                    li — Фактор успеха инвестиций в крипту
+                    li — Примеры криптопортфелей
+                    li — Как и где формировать портфель?
+                  .program-card__result
+                    p.program-card__result-title Результат:
+                    p.program-card__result-text Соберете свой собственный криптопортфель, определите свою стратегию инвестирования
+      section.tariffs-section
+        .container.tariffs-section__container
+          h2.u-section-title.tariffs-section__title Сколько стоит навык, который может сделать тебя миллионером через год?
+          .tariffs-section__list
+            .tariffs-section__list-col
+              article.tariffs-card.tariffs-card--type-1.tariffs-section__list-card
+                h3.tariffs-card__title База
+                .tariffs-card__subtitle 4 модуля
+                ol.tariffs-card__list
+                  li 1. Что такое крипта
+                  li 2. Где применяются и как используются криптовалюты
+                  li 3. Создание кошельков и регистрация на биржах
+                  li 4. Безопасность на рынке и виды мошенничества
+                .tariffs-card__date Доступ к материалам<br>на 1 месяц
+                .tariffs-card__price Cтоимость обучения: <span>100$</span>
+                .tariffs-card__sold Sold out
+            .tariffs-section__list-col
+              article.tariffs-card.tariffs-card--type-2.tariffs-section__list-card
+                h3.tariffs-card__title Продвинутый
+                .tariffs-card__subtitle 6 модулей
+                ol.tariffs-card__list
+                  li 1. Что такое крипта
+                  li 2. Где применяются и как используются криптовалюты
+                  li 3. Создание кошельков и регистрация на биржах
+                  li 4. Безопасность на рынке и виды мошенничества
+                  li 5. Бесплатная добыча
+                  li 6. Инвестиции и формирование портфеля
+                .tariffs-card__date Доступ к материалам<br>на 3 месяца
+                .tariffs-card__date Доступ к материалам<br>на 3 месяца
+                .tariffs-card__price Cтоимость обучения: <span>300$</span>
+                .tariffs-card__sold Sold out
+            .tariffs-section__list-col
+              article.tariffs-card.tariffs-card--type-3.tariffs-section__list-card
+                h3.tariffs-card__title Vip
+                .tariffs-card__subtitle 10 модулей
+                ol.tariffs-card__list
+                  li 1. Что такое крипта
+                  li 2. Где применяются и как используются криптовалюты
+                  li 3. Создание кошельков и регистрация на биржах
+                  li 4. Безопасность на рынке и виды мошенничества
+                  li 5. Бесплатная добыча
+                  li 6. Инвестиции и формирование портфеля
+                  li 7. Как выбрать проект для инвестирования
+                  li 8. NFT и метавселенные
+                  li 9. Основы трейдинга и торговля
+                  li 10. Как связать твою профессию с&nbsp;Web 3.0
+                .tariffs-card__date Доступ к материалам<br>на 3 месяца
+                .tariffs-card__date Доступ к материалам<br>на 3 месяца
+                .tariffs-card__price Cтоимость обучения: <span>400$</span>
+                .tariffs-card__footer
+                  button(type="button").btn.btn--theme-accent.btn--size-sm.tariffs-card__btn
+                    span.btn__inner
+                      span.btn__title Оставить заявку
+
+    include includes/foot.pug

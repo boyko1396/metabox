@@ -1,0 +1,41 @@
+:root {
+    --fs-default: 18px;
+    --fs-1: 55px;
+    --fs-2: 32px;
+    --fs-3: 28px;
+    --fs-4: 26px;
+    --fs-5: 22px;
+    --fs-6: 20px;
+    --fs-7: 18px;
+    --fs-8: 16px;
+    --fs-9: 14px;
+    --fs-10: 52px;
+    --fs-11: 30px;
+    --fs-12: 42px;
+    --fs-13: 23px;
+
+    --gap: 15px;
+    --gap-: -15px;
+}
+
+@media (max-width: $sm) {
+	:root {
+	    --fs-default: 16px;
+	    --fs-1: 30px;
+	    --fs-2: 28px;
+	    --fs-3: 24px;
+	    --fs-4: 21px;
+	    --fs-5: 18px;
+	    --fs-6: 16px;
+	    --fs-7: 14px;
+	    --fs-8: 14px;
+	    --fs-9: 12px;
+	    --fs-10: 42px;
+	    --fs-11: 26px;
+	    --fs-12: 34px;
+	    --fs-13: 20px;
+
+	    --gap: 15px;
+	    --gap-: -15px;
+	}
+}

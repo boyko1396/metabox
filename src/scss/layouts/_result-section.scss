@@ -1,0 +1,72 @@
+.result-section {
+    background: url(../images/result-section-bg.jpg) 50% no-repeat;
+    background-size: cover;
+    padding: 150px 0 200px;
+    color: $color-white-1;
+    @media (max-width: $lg) {
+        padding: 70px 0;
+    }
+    &__container {
+    }
+    &__title {
+        background: linear-gradient(180deg, $color-white-1 0%, $color-blue-4 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 0 20px;
+        font-weight: bold;
+        font-family: $ff-4;
+        font-size: 150px;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        @media (max-width: $md) {
+            font-size: 15vw;
+        }
+    }
+    &__list {
+        width: 100%;
+        max-width: 736px;
+        margin: 0 auto;
+        padding: 0;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: var(--fs-6);
+        line-height: 1.35;
+        @media (max-width: $xs) {
+            font-size: 14px;
+        }
+        li {
+            background: rgba($color-blue-12, .27);
+            margin: 0;
+            padding: 16px 32px 16px 70px;
+            border: 1px solid $color-blue-11;
+            border-radius: 9px;
+            box-shadow: 0 4px 4px rgba($color-black-1, .25);
+            backdrop-filter: blur(4px);
+            @media (max-width: $md) {
+                padding: 12px 24px 12px 40px;
+            }
+            &:before {
+                background: url(../images/icon/checked-double.svg) 50% no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 16px;
+                content: '';
+                position: absolute;
+                top: 21px;
+                left: 28px;
+                @media (max-width: $md) {
+                    width: 21px;
+                    height: 11px;
+                    top: 17px;
+                    left: 10px;
+                }
+            }
+        }
+        li + li {
+            margin-top: 5px;
+        }
+    }
+}

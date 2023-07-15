@@ -1,0 +1,46 @@
+.audience-section {
+    background: $color-blue-9;
+    padding: 162px 0 132px;
+    @media (max-width: $lg) {
+        padding: 70px 0;
+    }
+    &__container {
+    }
+    &__title {
+        max-width: 1030px;
+        margin: 0 auto 88px;
+        color: $color-black-3;
+        text-align: center;
+        @media (max-width: $lg) {
+            margin-bottom: 70px;
+        }
+    }
+    &__list {
+        margin: 0 -44px -54px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        @media (max-width: $md) {
+            margin: 0 -20px -40px -10px;
+        }
+        &-col {
+            max-width: 33.3333333%;
+            margin-bottom: 54px;
+            padding: 0 44px;
+            flex: 0 0 33.3333333%;
+            @media (max-width: $md) {
+                max-width: 50%;
+                margin-bottom: 40px;
+                padding: 0 20px;
+                flex-basis: 50%;
+            }
+            @media (max-width: $xs) {
+                max-width: 100%;
+                flex-basis: 100%;
+            }
+        }
+        &-card {
+            height: 100%;
+        }
+    }
+}

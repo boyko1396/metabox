@@ -1,0 +1,70 @@
+.deadline {
+    padding: 72px 0;
+    @media (max-width: $sm) {
+        padding: 40px 0;
+    }
+    &__container {
+    }
+    &__title {
+        margin: 0 0 32px;
+        text-align: center;
+        @media (max-width: $sm) {
+            margin-bottom: 20px;
+        }
+    }
+    &__countdown {
+        margin: 0 -40px 124px;
+        display: flex;
+        justify-content: center;
+        @media (max-width: $sm) {
+            margin: 0 -10px 60px;
+        }
+        &-item {
+            min-height: 70px;
+            padding: 0 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-family: $ff-3;
+            @media (max-width: $sm) {
+                padding: 0 10px;
+            }
+            &:not(:last-child) {
+                border-right: 2px solid $color-black-1;
+            }
+            &-count {
+                margin: 0;
+            }
+            &-title {
+                margin: 10px 0 0;
+                font-size: 18px;
+                @media (max-width: $sm) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    &__info {
+        margin: 0 -40px;
+        display: flex;
+        justify-content: center;
+        font-family: $ff-3;
+        @media (max-width: $sm) {
+            margin: 0 -20px;
+        }
+        &-item {
+            margin: 0 40px;
+            text-align: center;
+            @media (max-width: $sm) {
+                margin: 0 20px;
+            }
+            &-suptitle {
+                margin: 0 0 6px;
+                font-weight: bold;
+            }
+            &-title {
+                font-size: var(--fs-11);
+            }
+        }
+    }
+}
