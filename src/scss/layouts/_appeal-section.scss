@@ -1,0 +1,47 @@
+.appeal-section {
+    background: url(../images/appeal-section-bg.jpg) 50% no-repeat;
+    background-size: cover;
+    padding: 180px 0 160px;
+    color: $color-white-1;
+    @media (max-width: $lg) {
+        padding: 70px 0;
+    }
+    &__container {
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: $md) {
+            flex-direction: column;
+        }
+    }
+    &__content {
+        margin-right: 30px;
+        text-align: right;
+        font-family: $ff-3;
+        @media (max-width: $md) {
+            margin: 0 0 30px;
+            text-align: center;
+        }
+    }
+    &__title {
+        margin: 0 0 12px;
+        font-size: 24px;
+        font-family: inherit;
+    }
+    &__text {
+        font-size: var(--fs-6);
+        line-height: 1.3;
+    }
+    &__btn {
+        min-width: 330px;
+        flex-shrink: 0;
+        font-family: $ff-3;
+        color: $color-black-1;
+        text-transform: none;
+        @media (max-width: $md) {
+            min-width: 270px;
+        }
+    }
+}

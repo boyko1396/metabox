@@ -1,0 +1,39 @@
+.faq-section {
+    background: linear-gradient(114deg, #BAE6FF 0%, #F8FCFF 50%, #BDE7FF 100%);
+    padding: 110px 0 200px;
+    color: $color-white-1;
+    @media (max-width: $lg) {
+        padding: 70px 0 140px;
+    }
+    &__container {
+    }
+    &__title {
+        background: linear-gradient(180deg, #60B9EC 0%, #C1E5F6 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 0 30px;
+        font-weight: bold;
+        font-size: 130px;
+        font-family: $ff-4;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        @media (max-width: $lg) {
+            font-size: 10vw;
+        }
+        @media (max-width: $sm) {
+            margin-bottom: 20px;
+            font-size: 7vw;
+        }
+    }
+    &__list {
+        max-width: 784px;
+        margin: 0 auto;
+        &-item {
+            &:not(:last-child) {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

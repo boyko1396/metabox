@@ -82,6 +82,9 @@
         margin: 0 0 170px;
         position: relative;
         z-index: 0;
+        @media (max-width: $lg) {
+            margin-bottom: 70px;
+        }
         &-picture {
             margin: 0 0 0 -80px;
             position: absolute;
@@ -93,7 +96,7 @@
             z-index: -1;
             @media (max-width: $lg) {
                 width: 1600px;
-                margin: -180px 0 -100px -800px;
+                margin: 0 0 110px -800px;
                 display: flex;
                 justify-content: center;
                 position: relative;
@@ -116,15 +119,29 @@
             font-size: var(--fs-6);
             text-align: right;
             @media (max-width: $lg) {
-                color: $color-white-1;
             }
             &--1 {
                 max-width: 69%;
                 margin: 0 0 200px auto;
                 @media (max-width: $lg) {
                     max-width: 400px;
-                    margin: -650px auto 30px auto;
+                    margin: -1030px auto 500px auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                     text-align: center;
+                }
+                .about__crypto-card-title {
+                    @media (max-width: $lg) {
+                        margin: 16px 0 0;
+                        order: 1;
+                    }
+                    &:before {
+                        @media (max-width: $lg) {
+                            margin: 5px auto 0 122px;
+                            order: 1;
+                        }
+                    }
                 }
             }
             &--2 {
@@ -132,8 +149,18 @@
                 margin-left: auto;
                 @media (max-width: $lg) {
                     max-width: 400px;
-                    margin: 0 auto 100px auto;
+                    margin: 0 auto 40px auto;
                     text-align: center;
+                }
+                .about__crypto-card-title {
+                    @media (max-width: $lg) {
+                    }
+                    &:before {
+                        @media (max-width: $lg) {
+                            height: 164px;
+                            margin: 0 118px 5px auto;
+                        }
+                    }
                 }
             }
             &-title {
@@ -144,7 +171,6 @@
                 @media (max-width: $lg) {
                     flex-direction: column;
                     align-items: center;
-                    color: $color-white-1;
                 }
                 &:before {
                     background: $color-black-5;
@@ -153,9 +179,8 @@
                     content: '';
                     flex-grow: 1;
                     @media (max-width: $lg) {
-                        background: $color-white-1;
                         width: 1px;
-                        height: 70px;
+                        height: 120px;
                         margin: 0 0 10px;
                     }
                 }

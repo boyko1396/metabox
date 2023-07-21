@@ -62,9 +62,20 @@
                 max-width: 100%;
                 flex-basis: 100%;
             }
+            &--width {
+                &-100 {
+                    max-width: 100%;
+                    flex-basis: 100%;
+                }
+                &-md-full {
+                    @media (max-width: $md) {
+                        max-width: 100%;
+                        flex-basis: 100%;
+                    }
+                }
+            }
         }
         &-card {
-            height: 100%;
         }
     }
 }

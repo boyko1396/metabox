@@ -11,7 +11,7 @@
         color: $color-black-3;
         text-align: center;
         @media (max-width: $lg) {
-            margin-bottom: 70px;
+            margin-bottom: 60px;
         }
     }
     &__list {
@@ -63,6 +63,12 @@
         &-text {
             font-size: var(--fs-9);
             line-height: 1.92;
+            @media (max-width: $sm) {
+                max-width: 320px;
+                margin: 0 auto;
+                font-size: 13px;
+                line-height: 1.45;
+            }
         }
     }
 }
