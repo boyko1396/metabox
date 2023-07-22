@@ -1,12 +1,56 @@
 .appeal-section {
     background: url(../images/appeal-section-bg.jpg) 50% no-repeat;
     background-size: cover;
-    padding: 180px 0 160px;
+    padding: 195px 0 175px;
     color: $color-white-1;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
     @media (max-width: $lg) {
         padding: 70px 0;
     }
+    &:before,
+    &:after {
+        background-position: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        content: '';
+        position: absolute;
+        user-select: none;
+        pointer-events: none;
+    }
+    &:before {
+        background-image: url(../images/coin-4.png);
+        width: 443px;
+        height: 484px;
+        top: 50%;
+        left: -154px;
+        transform: translateY(-50%);
+        @media (max-width: $lg) {
+            transform: translateY(-50%) scale(.4);
+            left: -220px;
+        }
+        @media (max-width: $sm) {
+            transform: translateY(-50%) scale(.22);
+            left: -220px;
+        }
+    }
+    &:after {
+        background-image: url(../images/coin-3.png);
+        width: 484px;
+        height: 531px;
+        top: -220px;
+        right: -230px;
+        @media (max-width: $lg) {
+            transform: scale(.4);
+        }
+        @media (max-width: $sm) {
+            transform: scale(.34);
+        }
+    }
     &__container {
+        position: relative;
+        z-index: 1;
     }
     &__block {
         display: flex;
