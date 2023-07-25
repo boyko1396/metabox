@@ -1762,7 +1762,6 @@ svg,
 .about__crypto {
   margin: 0 0 170px;
   position: relative;
-  z-index: 0;
 }
 @media (max-width: 1199px) {
   .about__crypto {
